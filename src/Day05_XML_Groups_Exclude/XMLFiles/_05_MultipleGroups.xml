@@ -1,0 +1,33 @@
+<suite name="suit1">  <!--Tüm testleri kapsayan bölüm-->
+
+    <test name="test1">  <!--test 1 i kapsayan bölüm-->
+
+        <groups>
+            <run>
+                <include name="Regression" ></include>
+            </run>
+        </groups>
+
+        <classes>  <!--çalışcak classların yazıldığı bölüm-->
+            <class name="Day05_XML_Groups_Exclude._03_Groups"></class>
+        </classes>
+
+    </test>
+
+    <test name="test2">  <!--test 2 i kapsayan bölüm-->
+
+        <groups>
+            <run>
+                <include name="SmokeTest" ></include>
+            </run>
+        </groups>
+
+        <classes>  <!--çalışcak classların yazıldığı bölüm-->
+            <class name="Day05_XML_Groups_Exclude._03_Groups"></class>
+        </classes>
+
+    </test>
+
+
+</suite>
+

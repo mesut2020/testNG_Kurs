@@ -1,0 +1,13 @@
+<suite name="AutotraderPOM">
+
+    <test name="Autotrader POM Test">
+        <parameter name="makeAuto" value="Mercedes-Benz"> </parameter>
+        <parameter name="startYear" value="2015"> </parameter>
+        <parameter name="endYear" value="2020"> </parameter>
+        <parameter name="endYear" value="2020"> </parameter>
+        <classes>
+            <class name="Challenge.AutoTraderPOM"> </class>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+
+<suite name="Proje_2">
+    <test name="Tasks">
+        <classes>
+            <class name="Day07_Project.CigdemHanim.Proje2_Task1"> </class>
+            <class name="Day07_Project.CigdemHanim.Proje2_Task2"> </class>
+        </classes>
+    </test>
+</suite>

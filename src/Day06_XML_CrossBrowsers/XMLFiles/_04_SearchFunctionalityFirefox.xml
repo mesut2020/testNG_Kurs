@@ -1,0 +1,20 @@
+
+<suite name="suit1">
+
+    <test name="test1">
+        <parameter name="searchText" value="samsung"></parameter>
+        <parameter name="browser" value="chrome"></parameter>  <!-- extend oldugu icin burda kullanilabilir-->
+        <classes>
+            <class name= "Day06_XML_CrossBrowsers._04_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <parameter name="searchText" value="mac"></parameter>
+        <parameter name="browser" value="firefox"></parameter>  <!-- extend oldugu icin burda kullanilabilir-->
+        <classes>
+            <class name= "Day06_XML_CrossBrowsers._04_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+</suite>

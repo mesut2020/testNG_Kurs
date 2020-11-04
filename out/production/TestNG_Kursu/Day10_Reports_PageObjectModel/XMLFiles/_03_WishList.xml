@@ -1,0 +1,19 @@
+<suite name="WishListTest">
+
+    <test name="test1 with Chrome">
+        <parameter name="itemText" value="ipod"> </parameter>
+        <parameter name="browser" value="chrome"> </parameter>  <!-- extend oldugu icin burda kullanilabilir-->
+        <classes>
+            <class name= "Day10_Reports_PageObjectModel._03_WishListPOM"> </class>
+        </classes>
+    </test>
+
+    <test name="test2 with Firefox">
+        <parameter name="itemText" value="ipod"> </parameter>
+        <parameter name="browser" value="firefox"> </parameter>  <!-- extend oldugu icin burda kullanilabilir-->
+        <classes>
+            <class name= "Day10_Reports_PageObjectModel._03_WishListPOM"> </class>
+        </classes>
+    </test>
+
+</suite>

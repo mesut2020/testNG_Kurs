@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WishListTest]">
+  <test thread-count="5" name="test1 with Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="itemText" value="ipod"/>
+    <classes>
+      <class name="Day10_Reports_PageObjectModel._03_WishListPOM">
+        <methods>
+          <include name="afterClass"/>
+          <include name="failMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Day10_Reports_PageObjectModel._03_WishListPOM -->
+    </classes>
+  </test> <!-- test1 with Chrome(failed) -->
+  <test thread-count="5" name="test2 with Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="itemText" value="ipod"/>
+    <classes>
+      <class name="Day10_Reports_PageObjectModel._03_WishListPOM">
+        <methods>
+          <include name="afterClass"/>
+          <include name="failMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Day10_Reports_PageObjectModel._03_WishListPOM -->
+    </classes>
+  </test> <!-- test2 with Firefox(failed) -->
+</suite> <!-- Failed suite [WishListTest] -->

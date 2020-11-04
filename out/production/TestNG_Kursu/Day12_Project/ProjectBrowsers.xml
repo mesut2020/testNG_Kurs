@@ -1,0 +1,22 @@
+<suite name="Project TestNG" parallel="tests" thread-count="1">
+
+    <test name="Task1 with Chrome">
+        <parameter name="browser" value="chrome"> </parameter>
+        <parameter name="userName" value="ahm@kaya.com"> </parameter>
+        <parameter name="password" value="ahmet1234"> </parameter>
+        <parameter name="message" value="Burdan bir garip mi gecti dersiniz..."> </parameter>
+        <classes>
+            <class name= "Day12_Project.Task1"> </class>
+        </classes>
+    </test>
+
+    <test name="Task2 with Firefox">
+        <parameter name="browser" value="firefox"> </parameter>
+        <parameter name="userName" value="ahm@kaya.com"> </parameter>
+        <parameter name="password" value="ahmet1234"> </parameter>
+        <classes>
+            <class name= "Day12_Project.Task2"> </class>
+        </classes>
+    </test>
+
+</suite>

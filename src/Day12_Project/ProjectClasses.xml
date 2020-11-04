@@ -1,0 +1,14 @@
+<suite name="Project TestNG" parallel="classes" thread-count="2">
+
+    <test name="Task1 and 2 with Chrome parallel Testing">
+        <parameter name="browser" value="chrome"> </parameter>
+        <parameter name="userName" value="ahm@kaya.com"> </parameter>"Burdan bir garip mi gecti dersiniz..."
+        <parameter name="password" value="ahmet1234"> </parameter>
+        <parameter name="message" value="Burdan bir garip mi gecti dersiniz..."> </parameter>
+        <classes>
+            <class name= "Day12_Project.Task1"> </class>
+            <class name= "Day12_Project.Task2"> </class>
+        </classes>
+    </test>
+
+</suite>

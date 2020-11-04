@@ -1,0 +1,37 @@
+<suite name="suit1" parallel="tests" thread-count="4" >
+    <!-- paralel tests : paralel calsitirilacak birimler-->
+    <!-- thread: paralel calsitirilacak birimler-->
+
+    <test name="test1 FireFox">
+        <parameter name="searchText" value="mac"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name= "Day06_XML_CrossBrowsers._05_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+    <test name="test2 Chrome">
+        <parameter name="searchText" value="samsung"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name= "Day06_XML_CrossBrowsers._05_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+    <test name="test3 Edge">
+        <parameter name="searchText" value="canon"></parameter>
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name= "Day06_XML_CrossBrowsers._05_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+    <test name="test4 Opera">
+        <parameter name="searchText" value="canon"></parameter>
+        <parameter name="browser" value="opera"></parameter>
+        <classes>
+            <class name= "Day06_XML_CrossBrowsers._05_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+</suite>

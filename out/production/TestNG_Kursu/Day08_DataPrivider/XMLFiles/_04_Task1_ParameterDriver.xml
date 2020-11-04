@@ -1,0 +1,25 @@
+
+<suite name="Odev1" parallel="tests" thread-count="3" >   <!--  parallel="tests" thread-count="2" preserve-order="true"-->
+
+       <test name="Task1 Test with Chrome">
+           <parameter name = "browser"  value="chrome"></parameter>
+           <classes>
+               <class name="Day08_DataPrivider.Odev_Task1_ParameterDriver"></class>
+           </classes>
+       </test>
+
+        <test name="Task2 Test with Firefox">
+            <parameter name = "browser"  value="firefox"></parameter>
+            <classes>
+                <class name="Day08_DataPrivider.Odev_Task1_ParameterDriver"></class>
+            </classes>
+        </test>
+
+    <test name="Task2 Test with Edge">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="Day08_DataPrivider.Odev_Task1_ParameterDriver"></class>
+        </classes>
+    </test>
+
+</suite>

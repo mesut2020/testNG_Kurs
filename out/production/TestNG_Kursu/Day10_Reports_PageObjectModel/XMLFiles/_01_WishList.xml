@@ -1,0 +1,12 @@
+
+<suite name="_01_Wishlist">
+
+    <test name="test1">
+        <parameter name="itemName" value="ipod"></parameter>
+        <parameter name="browser" value="chrome"></parameter>  <!-- extend oldugu icin burda kullanilabilir-->
+        <classes>
+            <class name= "Day10_Reports_PageObjectModel._01_WishList"></class>
+        </classes>
+    </test>
+
+</suite>

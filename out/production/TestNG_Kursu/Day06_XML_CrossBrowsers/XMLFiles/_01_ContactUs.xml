@@ -1,0 +1,11 @@
+
+<suite name="suit1">
+
+    <test name="test1">
+        <parameter name="enquiry" value="Merhabalar artık biz geliyoruz..8 hafta sonra.."></parameter>
+        <classes>
+            <class name="Day06_XML_CrossBrowsers._01_ContactUs"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,21 @@
+<suite name="suit1">  <!--Tüm testleri kapsayan bölüm-->
+
+    <test name="test1">  <!--test 1 i kapsayan bölüm-->
+
+        <groups>
+            <run>
+                <exclude name="SmokeTest" ></exclude> <!-- SmokeTest in haricindekilieri calsitir-->
+                <exclude name="Regression" ></exclude> <!-- SmokeTest in haricindekilieri calsitir-->
+
+            </run>
+        </groups>
+
+        <classes>  <!--çalışcak classların yazıldığı bölüm-->
+            <class name="Day05_XML_Groups_Exclude._03_Groups"></class>
+        </classes>
+
+    </test>
+
+
+</suite>
+

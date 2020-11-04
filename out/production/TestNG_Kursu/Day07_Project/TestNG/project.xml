@@ -1,0 +1,32 @@
+
+<suite name="suitProject" parallel="tests" thread-count="2" >   <!--  parallel="tests" thread-count="2" preserve-order="true"-->
+
+       <test name="Task1 Test with Chrome">
+           <parameter name = "browser"  value="chrome"></parameter>
+           <classes>
+               <class name="Day07_Project.TestNG.TestNGTask1"></class>
+           </classes>
+       </test>
+
+        <test name="Task2 Test with Firefox">
+            <parameter name = "browser"  value="firefox"></parameter>
+            <classes>
+                <class name="Day07_Project.TestNG.TestNGTask2"></class>
+            </classes>
+        </test>
+
+    <test name="Task2 Test with Edge">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="Day07_Project.TestNG.TestNGTask2"></class>
+        </classes>
+    </test>
+
+    <test name="Task1 Test with Firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="Day07_Project.TestNG.TestNGTask1"></class>
+        </classes>
+    </test>
+
+</suite>
